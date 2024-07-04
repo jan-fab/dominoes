@@ -21,9 +21,10 @@ Winning the Game
 - The game continues until a player reaches 100 points.
 
 
-#MODEL CONSTRUCTION AND TRAINING
+# MODEL CONSTRUCTION AND TRAINING
 
-#Introduction
+# Introduction
+
 Winning at dominoes is not just about scoring points; it also involves blocking your opponent, avoiding blocks yourself, and preventing the opponent from scoring. This complexity is heightened by the limited information available to each player: they only know their own tiles and the ones already placed on the table. The challenge, then, is to develop a model that can navigate this intricate decision-making environment effectively.
 
 #Initial Setup

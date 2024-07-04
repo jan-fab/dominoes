@@ -1,3 +1,5 @@
+The provided code is for a neural network that plays dominoes.
+
 # RULES OF THE GAME
 
 ## Setup

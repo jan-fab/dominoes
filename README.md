@@ -1,6 +1,3 @@
-# dominoes
-A Neural Network for playing dominoes
-
 #RULES OF THE GAME
 
 Setup

@@ -42,5 +42,5 @@ As the network parameters are initialized randomly, it should initially win appr
 
 Initially, I trained the network by playing against the "random player." Once the network reached a certain efficiency, I had it play against itself. These two steps were repeated multiple times. Training against itself allows the network to learn how to play against a strong player making rational moves, while training against the "random player" helps escape local minima. Repeating these training steps multiple times produced a strong final algorithm, which on average wins 82.3% of games against the "random player."
 
-#Analysis and Future Improvements
+## Analysis and Future Improvements
 An analysis of the games lost by the model revealed that these losses were often caused by chance events, such as being blocked and forced to draw. This analysis also suggested further improvements to the reward structure, such as teaching the algorithm to prioritize blocking the opponent over earning points if the opponent has few dominoes left. Additional rules of thumb could also be implemented, such as placing a domino on the same end of the chain as the opponent to increase the likelihood that the opponent draws.
